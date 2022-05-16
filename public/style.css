@@ -1,0 +1,148 @@
+body{
+  height: 100%;
+  margin: 0px;
+  background-image: url("images/grama.png");
+}
+
+html{
+  height: 100%;
+}
+
+#campo{
+  width: 100%;
+  height: 90%;
+  border-collapse: collapse;
+}
+
+th{
+  border: 1px solid #6B8E23;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.arvore{
+  width: auto;
+  height: auto;
+}
+
+#time, #tempo, #numero{
+  font-family: monospace;
+  display: inline-flex;
+  margin-right: 20px;
+  height: 100%;
+}
+
+#numero{
+  float: right;
+}
+
+#num-time-rosa, #num-time-verde{
+  margin-right: 50px;
+}
+
+header{
+	background-color: #6B8E23;
+	width: 100%;
+  height: 9%;
+}
+
+.goblin{
+	margin: 0.5rem;
+  margin-right: 3rem;
+  margin-left: 2rem;
+  float: left;
+  height: -webkit-fill-available;
+}
+
+.timeTitulo{
+	  color: purple;
+}
+
+.tempoTitulo{
+	  color: purple;
+}
+
+p {
+  margin-right: 5px;
+
+	font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+    
+  text-align: center;
+
+  -webkit-text-stroke-width: 1px; /* largura da borda */
+  -webkit-text-stroke-color: white; /* cor da borda */
+}
+
+#finalizar{
+  position: fixed;
+  background-color: white;
+  box-shadow: -5px 5px 10px #8a8a8a;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: fit-content;
+  border-radius: 25px;
+  display: none;
+  font-family: Montserrat;
+  font-size: 23px;
+  line-height: 30px;
+  padding: 30px 10px 30px 10px;
+}
+
+#iniciar{
+  position: fixed;
+  background-color: rgb(240, 236, 178);
+  box-shadow: -5px 5px 10px #8a8a8a;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: fit-content;
+  border-radius: 25px;
+  font-family: Montserrat;
+  font-size: 23px;
+  line-height: 30px;
+  padding: 30px 10px 30px 10px;
+  text-align: center;
+}
+
+#btn-iniciar{
+  outline: none;
+  background-color: #50b83d;
+  border-radius: 20px;
+  border-width: 0px;
+  padding: 6px 20px 6px 20px;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+#btn-iniciar:hover{
+  background:linear-gradient(to bottom, #68cf55 5%, #72df5f 100%);
+	background-color:#f24437;
+}
+
+#btn-iniciar:active {
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+}
+
+
+#msg-iniciar, #msg-iniciar2{
+  font-family: Montserrat;
+  color: black;
+  -webkit-text-stroke-width: 0px; /* largura da borda */
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#back{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-image: url("images/grama.png");
+  filter: blur(2px);
+}
